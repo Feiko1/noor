@@ -1,0 +1,298 @@
+@charset "utf-8";
+@import "normalize";
+
+body {
+  background: #C2CCEC;
+  text-align: center;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  // height: 3000px;
+}
+
+.header-div {
+  background-color: red;
+}
+
+.img-bg {
+  background-image: url(../images/background_header.jpg);
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 100%;
+
+  /* Set up positioning */
+  // position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+.navbar {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+  color: #F2F2F2;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  word-spacing: 20px;
+  a {
+    text-decoration: none;
+    color: #F2F2F2;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 903px;
+}
+
+.title-content {
+  color: white;
+  border: solid 4px white;
+  padding: 20px;
+  letter-spacing: 2px;
+  h1 {
+    font-weight: lighter;
+  }
+}
+
+
+// Recyclable sections
+.section-container {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  padding-top: 175px;
+}
+
+.text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 900px;
+}
+
+.visual-container {
+// height: 900px;
+padding-top: 250px;
+padding-right: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+
+}
+// /////////////////////
+
+
+// GEAR LIST
+#gear-container {
+  display: flex;
+  h4 {
+    color: #77ADBC;
+    margin: 6px;
+  }
+}
+#gear-margin {
+  margin-top: 100px;
+  color: #292929;
+}
+
+#left {
+  width: 400px;
+  height: 471px;
+  text-align: right;
+  line-height: 18.43pt;
+  margin-right: 15px;
+}
+
+#right {
+  width: 400px;
+  height: 471px;
+  text-align: left;
+  margin-left: 15px;
+  line-height: 18.43pt;
+}
+// //////////////////
+
+// BANNER
+.banner {
+  height: auto;
+  background-color: white;
+  padding-top: 100px;
+  width: 100vw;
+}
+
+
+.test{
+  display: flex;
+  width: 1000px;
+  height: auto;
+  img {
+    width: 500px;
+    margin-top: 4px;
+  }
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: stretch;
+  // justify-content: space-between;
+  margin: 5px;
+  height: auto;
+  img {
+  }
+}
+
+.size{
+  width: 508px;
+  height: 644px;
+}
+
+.pic1 {
+  width: 450px;
+  height: 281px;
+}
+
+.pic3 {
+ width: 400px !important;
+}
+// .een {
+//   display: flex;
+//   flex-direction: colum;
+//   align-self: stretch;
+//   align-items: center;
+//   justify-content: center;
+// }
+// .image img {
+//   display: flex;
+//   flex-direction: column;
+//   width: 300px;
+//   height: 300px;
+// }
+// .twee {
+// }
+// .twee img {
+//   width: 300px;
+//   height: 600px;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .logo img {
+//   height: 18.75em;
+//   margin-top: 6em;
+// }
+
+// h1 {
+//   color: rgba(0,0,0,0.5);
+//   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+//   font-size: 1.8em;
+//   font-weight: 400;
+//   margin: 0;
+// }
+
+// .doc {
+//   margin: 3em 0;
+//   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+//   font-size: 1.1em;
+//   font-weight: 300;
+
+//   a {
+//     border: 1px solid white;
+//     border-radius: 3px;
+//     padding: 0.75em 0.7em;
+//     color: white;
+//     text-decoration: none;
+//     transition: color 0.1s linear;
+//     &:hover {
+//       background: rgba(0,0,0,0.2);
+//       color: white;
+//       transition: all 0.15s linear;
+//     }
+//   }
+// }
