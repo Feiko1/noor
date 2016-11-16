@@ -94,7 +94,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color: white;
+}
 
+.visual-bootstrap-container{
+  margin-top: 150px;
 }
 // /////////////////////
 
@@ -164,15 +167,27 @@ background-color: white;
   width: 508px;
   height: 644px;
 }
-
 .pic1 {
   width: 450px;
   height: 281px;
 }
-
 .pic3 {
  width: 400px !important;
 }
+.pic-a {
+  width: 34vw;
+  height: 300px;
+}
+.pic-b {
+  width: 34vw;
+  height: 300px;
+}
+.pic-c {
+  width: 68vw;
+  height: 350px;
+}
+
+
 // .een {
 //   display: flex;
 //   flex-direction: colum;
