@@ -34,6 +34,15 @@ end
 #   end
 # end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'master'
+  deploy.build_before = true
+end
+
+activate :directory_indexes
+
+
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
